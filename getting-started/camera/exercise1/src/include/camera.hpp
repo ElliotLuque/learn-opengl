@@ -67,8 +67,6 @@ public:
       Position -= Right * velocity;
     if (direction == RIGHT)
       Position += Right * velocity;
-
-    Position.y = 0.0f;
   }
 
   void ProcessMouse(float xoffset, float yoffset, bool constrainPitch = true) {
